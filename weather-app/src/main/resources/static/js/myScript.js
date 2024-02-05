@@ -25,10 +25,10 @@ document.addEventListener("DOMContentLoaded", function() {
       case 'Fog':
           weatherIcon.src="/image/image/fog.png";
           break;
-      default:
+      /*default:
           weatherIcon.src="/image/default.png";
           console.log("Unknown weather condition");
-          break;
+          break;*/
           }
        });
            
